@@ -253,7 +253,19 @@ button:hover {
         margin-left: 0;    
     }
 
+    nav{
+        position: relative;
+        text-align: center;
+        padding: 2% 0;
+    }
+
+    nav ul{
+        display: block;
+    }
+
     nav ul li{
+        display: block;
+        margin: 2% 0;
         font-size: 3vw;
     }
 
