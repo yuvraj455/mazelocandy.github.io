@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Yuvraj Jindal">
+        <meta name="description" content="My favouite Candy 'Mazelo'">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link rel="shortcut icon" href="images/parle_logo.jpg" type="image/x-icon">
+        <title>Mazelo Candy</title>
+    </head>
+    
+    <body>
+        <header>
+            <a href="index.html"><img id="logo" src="images/parle_logo.jpg" alt="parle_logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#watermelon">Watermelon</a></li>
+                    <li><a href="#banana">Banana</a></li>
+                    <li><a href="#guava">Guava</a></li>
+                    <li><a href="#apple">Apple</a></li>
+                    <li><a href="#litchi">Litchi</a></li>
+                    <li><a href="#nutrition">Nutritional Information</a></li>
+                    <li><a href="#contact-form">Contact Us</a></li>
+                </ul>
+            </nav>
+        
+            <img id="header-img" src="images/header.jpg" alt="candy_image">
+        </header>
+
+        <main>
+
+            <section class="intro">
+                <h2 id="quote">A deliciously fruity candy, Mazelo is an unforgettable treat.</h2>
+                <br>
+                <p>Available in five mouth-watering flavours: Watermelon, Banana, Guava, Apple, Litchi</p>             
+            </section>
+
+            <div class="candy-column">
+                <section id="watermelon">
+                    <h2>Watermelon</h2>
+                    <img src="images/watermelon.png" alt="watermelon_candy">
+                    <p></p>
+                </section>
+        
+                <section id="banana">
+                    <h2>Banana</h2>
+                    <img src="images/Banana.png" alt="banana_candy">
+                    <p></p>
+                </section>
+        
+                <section id="guava">
+                    <h2>Guava</h2>
+                    <img src="images/guava.png" alt="guava_candy">
+                    <p></p>
+                </section>
+            </div>
+        
+            <div class="candy-column">
+                <section id="apple">
+                    <h2>Apple</h2>
+                    <img src="images/apple.png" alt="apple_candy">
+                    <p></p>
+                </section>
+        
+                <section id="litchi">
+                    <h2>Litchi</h2>
+                    <img src="images/Litchi.png" alt="litchi_candy">
+                    <p></p>
+                </section>
+            </div>
+        
+            <section id="nutrition">
+                <h2>Nutritional Information</h2>
+                <table>
+                <tr>
+                    <td colspan="2">NUTRITION FACTS / INFORMATION</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">AMOUNT PER 100g (approx.)</td>
+                </tr>
+
+                <tr>
+                    <td class="content">ENERGY</td>
+                    <td class="value">386 kcal</td>
+                </tr>
+
+                <tr>
+                    <td class="content">PROTEIN</td>
+                    <td class="value">0g</td>
+                </tr>
+
+                <tr>
+                    <td class="content">CARBOHYDRATE</td>
+                    <td class="value">96.6g</td>
+                </tr>
+
+                <tr>
+                    <td class="sub-content">OF WHICH SUGARS</td> 
+                    <td class="value">80.1g</td>
+                </tr>
+
+                <tr>
+                    <td class="content">FAT</td>
+                    <td class="value">0g</td>
+                </tr>
+
+                <tr>
+                    <td class="sub-content">SATURATED FAT</td>
+                    <td class="value">0g</td>
+                </tr>
+
+                <tr>
+                    <td class="sub-content">TRANS FAT</td>
+                    <td class="value">0g</td>
+                </tr>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <div class="logo">
+                <a href="index.html"><img src="images/parle_logo.jpg" alt="Mazelo Logo"></a>
+            </div>
+
+            <div class="company-info">
+                <p>PARLE</p>
+                <p>Address: 765 Barnesdale Street, Toronto,ON</p>
+                <p>Email: info@parlemazelo.com</p>
+            </div>
+            
+            <div id="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" placeholder="*First Name*" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" placeholder="*Last Name*">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="eg: yuvraj455@gmail.com" required>
+                    <label for="number">Mobile:</label>
+                    <input type="tel" id="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="eg: 905-537-0601" required>
+                    <label for="concern">Concern:</label>
+                    <textarea id="concern"  rows="4" placeholder="Please write your Query here" required></textarea>
+                    <button type="submit" value="Submit">Submit</button>
+
+                </form>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
