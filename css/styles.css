@@ -57,6 +57,7 @@ nav ul li a:hover {
 
 main {
     padding: 2%;
+    background: conic-gradient(from 90deg at 50% 50%, #ffcc00 0deg, #ffcc00 60deg, #ff6666 60deg, #ff6666 120deg, #6699ff 120deg, #6699ff 180deg, #ffcc00 180deg, #ffcc00 240deg, #ff6666 240deg, #ff6666 300deg, #6699ff 300deg, #6699ff 360deg);
 }
 
 .intro {
